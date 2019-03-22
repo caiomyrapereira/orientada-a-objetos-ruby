@@ -7,29 +7,13 @@ Teste ao menos com 2 objetos.
 =end
 
 class Papagaio 
- @nome = nil
- @idade = nil
+ attr_accessor:nome
+ attr_accessor:idade 
   
-  def initialize(nome="fulano",idade=nil) #construtores
+  def initialize(nome="fulano",idade=nil) #metedos construtores
   @nome = nome;
   @idade = idade;
   end
-
-
-  def nome=(nome)
-  	 @nome = nome
-  end
-  def nome
-  	 @nome
-  end
-
-  def idade=(idade)
-  	 @idade = idade
-  end
-  def idade
-  	 @idade;
-  end
-
   def repetir_frase (frase = "curupaco!")
  	  puts frase
   end
