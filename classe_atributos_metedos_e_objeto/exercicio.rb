@@ -1,4 +1,4 @@
-#classe,atributos,metedos e obejto
+# define classe,atributos,metedos e obejto
 
 class Pessoa #classe
      attr_accessor:nome #atributo
