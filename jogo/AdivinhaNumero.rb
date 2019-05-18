@@ -32,7 +32,7 @@ end
 
 
 jogo=AdivinhaNumero.new 
-until(jogo.vitoria)do   # adivinha ate acertou o jogo
+until(jogo.vitoria)do   # adivinha ate acertar numero.
 	puts "digite um numero 1 ao 10??"
 	numero = gets.to_i
 	 jogo.adivinhar(numero)
