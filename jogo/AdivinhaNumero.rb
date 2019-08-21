@@ -5,7 +5,7 @@ class AdivinhaNumero ## quanto as vezes ele tentou
 @vitoria=nil;
 @tentativa =nil;
        def initialize
-       @numero=Random.new.rand(1..100); #vai seleciona 1 ao 10;
+       @numero=Random.new.rand(1..10); #vai seleciona 1 ao 10;
        @vitoria = false
        @tentativa=0;
        end 
